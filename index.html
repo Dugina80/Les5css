@@ -1,90 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normolize.css">
-    <link rel="stylesheet" href="styless.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styless/normolize.css" />
+    <link rel="stylesheet" href="styless/styless.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Portfolio</li>
-                    <li>Contacts</li>
-                </ul>
-            </nav>
-        </div>
+       <nav>
+         <div class="navigation">
+            <p><a href="#Home">Home</a></p>
+            <p><a href="#About me">About me</a></р3>
+            <p><a href="#Skills">Skills</a></p>
+            <p><a href="#Portfolio">Portfolio</a></p>
+            <p><a href="#Contacts">Contacts</a></p>
+         </div>
+       </nav>
     </header>
     <main>
-        <div class="content1">
-            <h1 class="content1-title">Denis Novik</h1>
-            <img class="content1-image" src="img/photox940.jpg" alt="Denis Novik">
+      <div id="Home" class="content1">
+        <h1 class="content1-title">Denis Novik</h1>
+        <img class="content1-image" src="img/photox940.jpg" alt="Denis Novik" />
+      </div>
+      <div id="About me" class="content2">
+        <h2 class="content2-title">About me</h2>
+        <div class="content2-text">
+          <p>
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />
+            I'm interested in design and everything connected with it.
+          </p>
+          <p>
+            I'm studying at courses "Web and mobile design <br />
+            interfaces" in IT-Academy.
+          </p>
+          <p>
+            Ready to implement excellent projects <br />
+            with wonderful people.
+          </p>
         </div>
-            <div class="content2">
-                <h2 class="content2-title">About me</h2>
-              <div class="content2-text">
-                <p>
-                    Hi, I'm Denis – UX/UI designer from Minsk. <br>
-                    I'm interested in design and everything connected with it.
-                </p>
-                <p>I'm studying at courses "Web and mobile design <br>
-                    interfaces" in IT-Academy. 
-                </p> 
-                <p>Ready to implement excellent projects <br>
-                    with wonderful people.
-                </p>
-              </div>     
-            </div>
-        <section class="content4"> 
-            <img src="img/Skills.jpg" alt="Skills">
-        </section>
-        <section>
-        <div>
-            <div class="content3">
-                <h2 class="content3-title">Portfolio</h2>
-                <img class="content3-image" src="img/Fashion-Store.jpg" alt="Fashion-Store">
-                <p class="content3-text">Online fashion store - <br> Homepage</p>
-            </div>
-            <div class="content5">  
-                <img class="content5-image" src="img/reebok_web.jpg" alt="Ready">
-                <p class="content5-text">Reebok Store - Concept</p>
-            </div>
-            <div class="content6">
-                <img class="content6-image" src="img/braun-landing.jpg" alt=""braun-landing>
-                <p class="content6-text" >Braun Landing Page - Concept</p>
-            </div>
-        </div>
-        </section>
-        <footer>
-            <div class="content7"> 
-                <h2 class="content7-title">Contacts</h2>
-            <p class="content7-text">Want to know more or just chat? <br>
-                You are welcome!
-            </p>
-            
-            <button class="button">Send message</button>  
-            </div>
-            <div class="content8">
-                <p class="content8-text">
-                    Like me on <br>
-                    LinkedIn, Instagram, Behance, <br>
-                    Dribble
-                </p>
-            </div>
-        </footer>
-    </main>
-</body>
+      </div>
 
+      <div id="Skills" class="content4">
+          <div class="content4-heading">
+            <h2 class="content4-heading-title">Skills</h2>
+            <p class="content4-heading-text">I work in such programs as</p>
+          </div>
+        <ul class="product-list">
+            <li class="PL-block">
+              <div class="PL-block-general">
+                <img class="PL-block-general-image" src="img/Ps.jpg" alt="Photoshop">
+                <p class="PL-block-general-text">Adobe <br/> Photoshop</p>
+              </div>
+            </li> 
+            
+            <li class="PL-block">
+              <div class="PL-block-general">
+                <img class="PL-block-general-image" src="img/Ai.jpg" alt="illustrator">
+                <p class="PL-block-general-text">Adobe <br/>illustrator</p>
+              </div>
+            </li> 
+
+            <li class="PL-block">
+              <div class="PL-block-general">
+                <img class="PL-block-general-image" src="img/Ae.jpg" alt="illustrator">
+                <p class="PL-block-general-text">Adobe <br/> After Effects</p>
+              </div>
+            </li> 
+            <li class="PL-block">
+              <div class="PL-block-general">
+                <img class="PL-block-general-image" src="img/Figma.jpg" alt="illustrator">
+                <p class="PL-block-general-text">Figma</p>
+              </div>
+            </li> 
+
+      </div>
+
+      <div>
+        <div id="Portfolio"> 
+          <div class="content3">
+            <h2 class="content3-title">Portfolio</h2>
+            <img
+              class="content3-image"
+              src="img/Fashion-Store.jpg"
+              alt="Fashion-Store"
+            />
+            <p class="content3-text">
+              Online fashion store - <br />
+              Homepage
+            </p>
+          </div>
+          <div class="content5">
+            <img class="content5-image" src="img/reebok_web.jpg" alt="Ready" />
+            <p class="content5-text">Reebok Store - Concept</p>
+          </div>
+          <div class="content6">
+            <img
+              class="content6-image"
+              src="img/braun-landing.jpg"
+              alt="braun-landing"
+            />
+            <p class="content6-text">Braun Landing Page - Concept</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div id="Contacts" class="content7">
+          <h2 class="content7-title">Contacts</h2>
+          <p class="content7-text">
+            Want to know more or just chat? <br />
+            You are welcome!
+          </p>
+        </div>
+        <div class="B1">
+          <button class="button">Send message</button>
+        </div>  
+                  <div class="social-group">
+            <img src="img/linkedin.jpg" alt="linkedin">
+            <img src="img/instagram.jpg" alt="instagram">
+            <img src="img/behance.jpg" alt="behance">
+            <img src="img/Vector.jpg" alt="Vector">
+          </div>
+        <div class="content8">
+          <p class="content8-text">
+            Like me on <br />
+            LinkedIn, Instagram, Behance, <br />
+            Dribble
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
