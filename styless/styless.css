@@ -18,8 +18,7 @@
 }
 
 .content1 {
- text-align:center ;
-
+  text-align: center;
 }
 
 .content1-title {
@@ -29,8 +28,8 @@
   font-size: 48px;
   line-height: 65px;
   color: #070707;
-text-align: left;
-margin-left: 465px;
+  text-align: left;
+  margin-left: 465px;
 }
 
 .content2 {
@@ -95,6 +94,11 @@ margin-left: 465px;
   padding: 100px 50px;
 }
 
+.content4-heading {
+  text-align: center;
+  padding: 100px 50px;
+}
+
 .content4-heading-title {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -113,6 +117,8 @@ margin-left: 465px;
   line-height: 25px;
   text-align: center;
   color: #070707;
+}
+.stars-icon {
 }
 
 .product-list {
@@ -181,7 +187,6 @@ margin-left: 465px;
   background: #f6f6f6;
   text-align: center;
   padding: 100px 0;
-  
 }
 
 .content6-text {
@@ -255,7 +260,7 @@ margin-left: 465px;
 }
 
 .content8-text {
-    margin-top: 60px;
+  margin-top: 60px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
